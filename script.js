@@ -5,9 +5,14 @@ document.addEventListener("mousemove", (dets) =>{
     cursor.style.top = dets.y + "px"
 })
 
-document.querySelectorAll("nav p").forEach(elem => {
+document.querySelectorAll("nav .nav-link").forEach((elem) => {
     elem.addEventListener("mouseover", () =>{
         cursor.style.scale = 4;
-        
+    })
+});
+
+document.querySelectorAll("nav .nav-link").forEach((elem) => {
+    elem.addEventListener("mouseleave", () =>{
+        cursor.style.scale = 1;
     })
 });
