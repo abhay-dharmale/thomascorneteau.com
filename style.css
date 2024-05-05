@@ -1,0 +1,100 @@
+@font-face {
+  font-family: Arges;
+  src: url(./fonts/660a6e508e705041d7cabcbf_Arges-Black.ttf);
+}
+
+@font-face {
+  font-family: Arges2;
+  src: url(./fonts/NGS6v5_NC0k9P9H2TbE.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #050c0f;
+  color: #fff;
+}
+
+:root{
+    --primary-color: #ECE6D5;
+}
+
+#cursor{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-color: #c9a12d;
+    border-radius: 50%;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1).5s;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Arges2;
+  padding: 40px;
+  /* background-color: red; */
+}
+
+nav p {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 100;
+  color: var(--primary-color);
+  opacity: .8;
+  cursor: pointer;
+}
+
+p i {
+  margin-left: 3px;
+  font-size: 20px;
+}
+
+.home-page .main-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5vw;
+  font-family: arges;
+  margin-top: 11vw;
+}
+
+.main-text h3 {
+  font-size: 1.2vw;
+  letter-spacing: 10px;
+  line-height: 1vw;
+}
+
+.main-text h1 {
+  font-size: 12vw;
+  line-height: 12vw;
+  color: var(--primary-color);
+}
+
+.text-para {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  /* background-color: red; */
+  height: 35vh;
+  font-family: arges2;
+  padding: 2vw;
+}
+
+.text-para p {
+  width: 22%;
+  font-size: 0.82vw;
+  line-height: 1.4vw;
+  color: var(--primary-color);
+  opacity: .8;
+}
