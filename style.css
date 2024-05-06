@@ -118,3 +118,43 @@ nav .nav-link p{
   color: var(--primary-color);
   opacity: .8;
 }
+
+
+
+@media (max-width:375px) {
+  nav {
+    padding: 40px 10px;
+  }
+
+  .home-page .main-text {
+    align-items: start;
+    gap: 12vw;
+    margin-top: 27vw;
+    padding: 5vw;
+  }
+  
+
+  .main-text h3 {
+    font-size: 7vw;
+    letter-spacing: 10px;
+    line-height: 1vw;
+  }
+  
+  .main-text h1 {
+    font-size: 34vw;
+    line-height: 29vw;
+    color: var(--primary-color);
+    pointer-events: none;
+  }
+
+  .text-para {
+    height: 25vh;
+    padding: 4vw;
+  }
+  
+  .text-para p {
+    width: 100%;
+    font-size: 4.5vw;
+    line-height: 7vw;
+  }
+}
