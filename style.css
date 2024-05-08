@@ -75,6 +75,10 @@ nav .nav-link p{
   transition: all ease .5s;
 }
 
+.nav-link-content .p2{
+  color: #000;
+}
+
 .nav-link p i {
   font-size: 20px;
 }
@@ -122,6 +126,14 @@ nav .nav-link p{
 
 
 @media (max-width:375px) {
+  #cursor{
+    display: none;
+  }
+
+  .nav-link-content .p2{
+    color: #fff;
+  }
+
   nav {
     padding: 40px 10px;
   }
@@ -129,7 +141,7 @@ nav .nav-link p{
   .home-page .main-text {
     align-items: start;
     gap: 12vw;
-    margin-top: 27vw;
+    margin-top: 20vw;
     padding: 5vw;
   }
   
