@@ -210,7 +210,10 @@ nav .nav-link p{
 
 
 
-@media (max-width:375px), (max-width:425px) {
+@media (min-width:375px) and (max-width:425px) {
+  main{
+    padding: 1vw;
+  }
   #cursor{
     display: none;
   }
@@ -251,8 +254,26 @@ nav .nav-link p{
   
   .text-para p {
     width: 100%;
-    font-size: 4.5vw;
-    line-height: 7vw;
+    font-size: 4vw;
+    line-height: 3vw;
+  }
+  .page2-content-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 94%;
+  }
+  .page2-content-wrapper .box{
+    /* background-color: red; */
+    position: relative;
+    height: 70%;
+    width: 90%;
+    padding: 5vw;
+    pointer-events: none;
+    z-index: 5;
+  }
+  .box .part3 h4{
+    font-family: arges2;
+    margin: 2px 0;
   }
 }
 
